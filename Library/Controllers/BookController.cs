@@ -79,7 +79,7 @@ namespace Library.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToCollection(int id)
         {
-            var book = await context.Books.FindAsync(id);
+            var book = GetBookById(id);
 
 
             if (book == null)
