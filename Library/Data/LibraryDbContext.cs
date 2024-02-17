@@ -67,6 +67,6 @@ namespace Library.Data
         }
         public DbSet<Book> Books { get; set;}
         public DbSet<Category> Categories { get; set;}
-        public DbSet<IdentityUserBook> IdentityUsers { get; set;}
+        public DbSet<IdentityUserBook> IdentityUsersBooks { get; set;}
     }
 }
